@@ -1,5 +1,6 @@
 .header {
-    background: #063f81;
+    font-family: sans-serif;
+    background: #3e8de7;
     padding: 0 0 1rem;
     position: relative;
     text-align: center;
@@ -8,7 +9,7 @@
 }
 
 .title {
-    color: #000000;
+    color: #ffffff;
     font-size: 3rem;
     text-decoration: none;
 }
@@ -25,14 +26,14 @@
 
 .nav-item {
     width: 20%;
-    color: #999999;
+    color: #fde7e7;
     text-align: center;
 }
 
 .nav-item:hover {
-    color: #666666;
+    color: #cccccc;
 }
 
 .active-nav-item {
-    color: #333333;
+    color: #f5c2c2;
 }

@@ -1,12 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import Projects from "../components/projects";
 
 
 const IndexPage = () => (
   <Layout>
-    <h1>Projects</h1>
+    <Projects />
   </Layout>
 )
 
