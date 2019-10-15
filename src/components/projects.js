@@ -6,14 +6,19 @@ import projectsStyles from './projects.module.scss'
 
 const Projects = () => {
     return (
-        <div className={projectsStyles.container}>
-            <h1>Projects</h1>
+        <div>
             <div className={projectsStyles.row}>
                 <div className={projectsStyles.project}>
                     <a href="https://remember-when-5gyebb.web.app" target="_blank">
                         <img src={remember} alt="Remember When" />
                     </a>
                     <p>Built with React, Redux, Firebase Auth/DB/Hosting</p>
+                    <ul className={projectsStyles.info}>
+                        <li>Users create timelines and iput memories</li>
+                        <li>Upload images and add description and date</li>
+                        <li>Sort by date or filter by keyword</li>
+                        <li>User authentication through email and password</li>
+                    </ul>
                     <a href="https://github.com/geflores5/remember-when" target="_blank">
                         <img src={gitcat} alt="geflores5"/>
                     </a>

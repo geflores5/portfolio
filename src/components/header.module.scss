@@ -1,7 +1,7 @@
 .header {
+    background: #323a42;
     font-family: sans-serif;
-    background: #3e8de7;
-    padding: 0 0 1rem;
+    padding: 0;
     position: relative;
     text-align: center;
     top: 0;
@@ -9,31 +9,35 @@
 }
 
 .title {
-    color: #ffffff;
+    color: #78b5fc;
     font-size: 3rem;
     text-decoration: none;
 }
 
 .nav-list {
+    list-style-type: none;
+    background-color: #0bc759;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    width: 50%;
-    margin: 0 auto;
+    max-width: 300px;
+    width: 40%;
+    margin: 0 auto 0 auto;
     text-align: center;
+    padding: 5px 0 5px 0;
 }
 
 .nav-item {
-    width: 20%;
-    color: #fde7e7;
+    width: 33%;
+    color: #ffffff;
     text-align: center;
 }
 
 .nav-item:hover {
-    color: #cccccc;
+    color: #cec9c9;
 }
 
 .active-nav-item {
-    color: #f5c2c2;
+    color: #e9e9d9;
 }
