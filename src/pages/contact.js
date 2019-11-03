@@ -10,7 +10,7 @@ const ContactPage = () => {
             <h1>Connect with Me</h1>
             <p>Email: geflores5@gmail.com</p>
             <p>
-                <a href="https://github.com/geflores5" target="_blank" >
+                <a href="https://github.com/geflores5" target="_blank" rel="noopener noreferrer" >
                     <img src={gitcat} alt="geflores5"/>
                 </a>
             </p>

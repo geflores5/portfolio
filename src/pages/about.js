@@ -7,7 +7,7 @@ const AboutPage = () => (
     <Layout>
         <Head title="About" />
         <h1>About Me</h1>
-        <p>Web Developer</p>
+        <p>My name is Giovanni Flores and I am a developer.</p>
     </Layout>
 )
 
