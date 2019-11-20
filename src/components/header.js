@@ -25,7 +25,7 @@ const Header = () => {
                 <ul className={headerStyles.navList}>
                     <li>
                         <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">
-                            Portfolio
+                            Projects
                         </Link>
                     </li>
                     <li>

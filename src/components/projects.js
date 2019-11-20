@@ -1,6 +1,7 @@
 import React from 'react';
 import remember from '../images/remember-when.png';
 import blog from '../images/gatsby-blog.png';
+import weather from '../images/weather.png';
 import gitcat from '../images/github.png';
 import projectsStyles from './projects.module.scss'
 
@@ -58,6 +59,19 @@ const Projects = () => {
                 </div>
             </div>
             <div className={projectsStyles.row}>
+            <div className={projectsStyles.project}>
+                    <a href="https://node-weather-geflores5.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={weather} alt="Node Weather App" />
+                    </a>
+                    <p>Built with Node, Express, DarkSky API, Heroku</p>
+                    <ul className={projectsStyles.info}>
+                        <li>Weather app utilizing Node asyncronous programming</li>
+                        <li>Retrieves data from mapbox.com and darksky.net</li>
+                    </ul>
+                    <a href="https://github.com/geflores5/node-weather-app" target="_blank" rel="noopener noreferrer">
+                        <img src={gitcat} alt="geflores5"/>
+                    </a>
+                </div>
                 <div className={projectsStyles.project}>
                     <a href="https://geflores5-gatsby-blog.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <img src={blog} alt="Gatsby Blog" />
