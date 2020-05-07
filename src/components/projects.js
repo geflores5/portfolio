@@ -59,7 +59,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className={projectsStyles.row}>
-            <div className={projectsStyles.project}>
+                <div className={projectsStyles.project}>
                     <a href="https://node-weather-geflores5.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                         <img src={weather} alt="Node Weather App" />
                     </a>
@@ -72,6 +72,21 @@ const Projects = () => {
                         <img src={gitcat} alt="geflores5"/>
                     </a>
                 </div>
+                <div className={projectsStyles.project}>
+                    <a href="https://exercise-tracker-geflores5.herokuapp.com//" target="_blank" rel="noopener noreferrer">
+                        <img src={exertracker} alt="Exercise Tracker" />
+                    </a>
+                    <p>Built with Node, Express, MongoDB, MongoDB Atlas, Heroku</p>
+                    <ul className={projectsStyles.info}>
+                        <li>Simple Exercise Tracker with crud functionality</li>
+                        <li>Add users/exercises, update/delete exercises</li>
+                    </ul>
+                    <a href="https://github.com/geflores5/gatsby-blog" target="_blank" rel="noopener noreferrer">
+                        <img src={gitcat} alt="geflores5"/>
+                    </a>
+                </div>
+            </div>
+            <div className={projectsStyles.row}>
                 <div className={projectsStyles.project}>
                     <a href="https://geflores5-gatsby-blog.netlify.com/" target="_blank" rel="noopener noreferrer">
                         <img src={blog} alt="Gatsby Blog" />
