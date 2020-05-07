@@ -82,7 +82,7 @@ const Projects = () => {
                         <li>Simple Exercise Tracker with crud functionality</li>
                         <li>Add users/exercises, update/delete exercises</li>
                     </ul>
-                    <a href="https://github.com/geflores5/gatsby-blog" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/geflores5/exercise-tracker" target="_blank" rel="noopener noreferrer">
                         <img src={gitcat} alt="geflores5"/>
                     </a>
                 </div>
