@@ -77,12 +77,12 @@ const Projects = () => {
                     <a href="https://exercise-tracker-geflores5.herokuapp.com//" target="_blank" rel="noopener noreferrer">
                         <img src={exertracker} alt="Exercise Tracker" />
                     </a>
-                    <p>Built with Node, Express, MongoDB, MongoDB Atlas, Heroku</p>
+                    <p>Built with Node, Express, MongoDB/Atlas, Heroku</p>
                     <ul className={projectsStyles.info}>
                         <li>Simple Exercise Tracker with crud functionality</li>
                         <li>Add users/exercises, update/delete exercises</li>
                     </ul>
-                    <a href="https://github.com/geflores5/exercise-tracker" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/geflores5/exertracker-api" target="_blank" rel="noopener noreferrer">
                         <img src={gitcat} alt="geflores5"/>
                     </a>
                 </div>
