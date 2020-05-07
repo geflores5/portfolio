@@ -2,6 +2,7 @@ import React from 'react';
 import remember from '../images/remember-when.png';
 import blog from '../images/gatsby-blog.png';
 import weather from '../images/weather.png';
+import exertracker from '../images/exertracker.png'
 import gitcat from '../images/github.png';
 import projectsStyles from './projects.module.scss'
 
