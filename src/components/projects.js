@@ -74,7 +74,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div className={projectsStyles.project}>
-                    <a href="https://exercise-tracker-geflores5.herokuapp.com//" target="_blank" rel="noopener noreferrer">
+                    <a href="https://exercise-tracker-geflores5.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                         <img src={exertracker} alt="Exercise Tracker" />
                     </a>
                     <p>Built with Node, Express, MongoDB/Atlas, Heroku</p>
