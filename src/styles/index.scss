@@ -2,7 +2,23 @@
     background-color: #c2c6ca;
     font-weight: bold;
     font-size: 36px;
-    margin: 0;
+    margin: 50px 0 50px 0;
+}
+
+.contacts {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#linkedin-icon {
+    height: 32px;
+}
+
+#github-logo {
+    height: 32px;
 }
 
 .body {

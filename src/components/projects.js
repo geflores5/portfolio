@@ -1,15 +1,54 @@
-import React from "react"
-import remember from "../images/remember-when.png"
-import blog from "../images/gatsby-blog.png"
-import weather from "../images/weather.png"
-import exertracker from "../images/exertracker.png"
-import gitcat from "../images/github.png"
-import githubFinder from "../images/github-finder.png"
-import projectsStyles from "./projects.module.scss"
+import React from 'react'
+import inkrprate from '../images/inkrprate.png'
+import related from '../images/related.png'
+import remember from '../images/remember-when.png'
+import blog from '../images/gatsby-blog.png'
+import weather from '../images/weather.png'
+import exertracker from '../images/exertracker.png'
+import gitcat from '../images/github.png'
+import githubFinder from '../images/github-finder.png'
+import projectsStyles from './projects.module.scss'
 
 const Projects = () => {
   return (
     <div>
+      <div className={projectsStyles.row}>
+        <div className={projectsStyles.project}>
+          <a
+            href="https://inkrprate.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={inkrprate} alt="Inkrprate" />
+          </a>
+          <p>MongoDB | Express | React | Node | Context | Firebase</p>
+          <ul className={projectsStyles.info}>
+            <li>Implemented user authentication using Firebase, allowing users to signup, login, and reset password</li>
+            <li>Utilized React’s Context API to allow app wide access to currently logged in user info and the implementation of protected routes and user data</li>
+          </ul>
+        </div>
+        <div className={projectsStyles.project}>
+          <a
+            href="https://target-related-items.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={related} alt="Related Items" />
+          </a>
+          <p>MongoDB | Express | React | Node | AWS EC2 | Docker</p>
+          <ul className={projectsStyles.info}>
+            <li>Dynamically renders content allowing users to horizontally scroll through a carousel of related items using raw CSS</li>
+            <li>Dockerized and hosted on AWS EC2 instance</li>
+          </ul>
+          <a
+            href="https://github.com/TeamM-V-P/related-items"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={gitcat} alt="geflores5" />
+          </a>
+        </div>
+      </div>
       <div className={projectsStyles.row}>
         <div className={projectsStyles.project}>
           <a
@@ -19,7 +58,7 @@ const Projects = () => {
           >
             <img src={remember} alt="Remember When" />
           </a>
-          <p>Built with React, Redux, Firebase Auth/DB/Hosting</p>
+          <p>React | Redux | Firebase Auth/DB/Hosting</p>
           <ul className={projectsStyles.info}>
             <li>Users create timelines and input memories</li>
             <li>Upload images and add description and date</li>
@@ -58,7 +97,7 @@ const Projects = () => {
               title="remember-when"
             />
           </div>
-          <p>Built with React Native, Redux, Firebase Auth/DB</p>
+          <p>React Native | Redux | Firebase Auth/DB</p>
           <ul className={projectsStyles.info}>
             <li>React Native app version of site</li>
             <li>Real time connection through Firebase</li>
@@ -81,7 +120,7 @@ const Projects = () => {
           >
             <img src={weather} alt="Node Weather App" />
           </a>
-          <p>Built with Node, Express, DarkSky API, Heroku</p>
+          <p>Node | Express | DarkSky API | Heroku</p>
           <ul className={projectsStyles.info}>
             <li>Weather app utilizing Node asyncronous programming</li>
             <li>Retrieves data from mapbox.com and darksky.net</li>
@@ -102,7 +141,7 @@ const Projects = () => {
           >
             <img src={exertracker} alt="Exercise Tracker" />
           </a>
-          <p>Built with Node, Express, MongoDB/Atlas, Heroku</p>
+          <p>MongoDB | Node | Express | Heroku</p>
           <ul className={projectsStyles.info}>
             <li>Simple Exercise Tracker with crud functionality</li>
             <li>Add users/exercises, update/delete exercises</li>
@@ -125,7 +164,7 @@ const Projects = () => {
           >
             <img src={githubFinder} alt="Github Finder" />
           </a>
-          <p>Built with React, GitHub API, Context, Netlify</p>
+          <p>React | GitHub API | Context | Netlify</p>
           <ul className={projectsStyles.info}>
             <li>Simple GitHub profile finder using GitHub API</li>
             <li>Search users by name and view basic profile information</li>
@@ -146,7 +185,7 @@ const Projects = () => {
           >
             <img src={blog} alt="Gatsby Blog" />
           </a>
-          <p>Built with React, Gatsby, Contentful, Netlify</p>
+          <p>React | Gatsby | Contentful | Netlify</p>
           <ul className={projectsStyles.info}>
             <li>Blog with content managed using Contentful</li>
             <li>Disqus commenting enabled</li>
