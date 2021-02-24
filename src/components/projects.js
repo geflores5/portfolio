@@ -33,7 +33,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={projectsStyles.rowLight} >
-        <div className={projectsStyles.projectLight}>
+        <div className={`${projectsStyles.projectLight} ${projectsStyles.reverse}`}>
           <div className={projectsStyles.info} >
             <p>MongoDB | Express | React | Node | AWS EC2 | Docker</p>
             <ul className={projectsStyles.description}>
@@ -87,7 +87,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={projectsStyles.rowDark} >
-        <div className={projectsStyles.projectDark}>
+        <div className={`${projectsStyles.projectDark} ${projectsStyles.reverse}`}>
           <div className={projectsStyles.info} >
             <p>React Native | Redux | Firebase Auth/DB</p>
             <ul className={projectsStyles.description}>
@@ -103,12 +103,12 @@ const Projects = () => {
             </a>
           </div>
           <div
-            className={projectsStyles.visual}
+            className={projectsStyles.visual} id='video'
           >
             <iframe
               style={{
                 width: "100%",
-                height: "491px",
+                height: "45vh",
                 borderRadius: "5px"
               }}
               src="https://www.youtube.com/embed/4dxDV7h4p8c"
@@ -146,7 +146,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={projectsStyles.rowLight} >
-        <div className={projectsStyles.projectLight}>
+        <div className={`${projectsStyles.projectLight} ${projectsStyles.reverse}`}>
           <div className={projectsStyles.info} >
             <p>MongoDB | Node | Express | Heroku</p>
             <ul className={projectsStyles.description}>
@@ -198,7 +198,7 @@ const Projects = () => {
         </div>
       </div>
       <div className={projectsStyles.rowLight} >
-        <div className={projectsStyles.projectLight}>
+        <div className={`${projectsStyles.projectLight} ${projectsStyles.reverse}`}>
           <div className={projectsStyles.info} >
             <p>React | Gatsby | Contentful | Netlify</p>
             <ul className={projectsStyles.description}>

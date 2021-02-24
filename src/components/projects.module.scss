@@ -83,3 +83,18 @@
 p {
     margin: 0;
 }
+
+@media (max-width: 870px) {
+    .projectLight {
+        flex-direction: column;
+    }
+    .projectDark {
+        flex-direction: column;
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .description {
+        text-align: center;
+    }
+}
