@@ -1,31 +1,69 @@
-.container {
-    width: 100%;
-}
-.row {
-    max-width: 100%;
-    width: 100%;
+.rowLight {
+    width: calc(100% - 25px);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 20px;
-}
-.project {
+    margin: 15px;
+    border-radius: 10px;
     background: #323a42;
+}
+.rowLight:hover {
+    background: #efefef;
+}
+.rowDark {
+    width: calc(100% - 25px);
     display: flex;
     flex-direction: row;
-    max-width: 100%;
-    width: calc(100% - 30px);
-    padding: 0 4px;
-    margin: 0 11px;
-    background-color: #292a2c;
+    flex-wrap: wrap;
+    margin: 15px;
+    border-radius: 10px;
+    background: #323a42;
+}
+.rowDark:hover {
+    background: #c2c6ca;
+}
+.projectLight {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 25px;
+    background: #FFF;
+    color: #000;
+}
+.projectLight:hover {
+    transform: scale(1.01);
+    transition: transform .1s;
+}
+.projectDark {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 25px;
+    background: #020202;
+    color: #FFF
+}
+.projectDark:hover {
+    transform: scale(1.01);
+    transition: transform .1s;
+}
+.visual {
+    flex: 3;
 }
 .info {
-    flex-grow: 1;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description {
     text-align: left;
     margin: 10px 0;
 }
 img {
     max-width: 100%;
+    border-radius: 5px;
 }
 p {
     margin: 0;
