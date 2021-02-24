@@ -17,8 +17,8 @@ const Header = () => {
 
     return (
         <header className={headerStyles.header}>
-            <Link className={headerStyles.initials} to='/' >
-                <img src={initials}></img>
+            <Link className={headerStyles.initialsContainer} to='/' >
+                <img src={initials} className={headerStyles.initials} ></img>
             </Link>
             <nav className={headerStyles.nav} >
                 <ul className={headerStyles.navList}>
