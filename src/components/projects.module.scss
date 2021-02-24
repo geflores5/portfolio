@@ -1,26 +1,84 @@
-.row {
-    max-width: 100%;
-    width: 100%;
+.title {
+    font-size: 60px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 100px;
+}
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background: #020202;
+}
+.rowLight {
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    background: #323a42;
 }
-.project {
+.rowLight:hover {
+    background: #efefef;
+}
+.rowDark {
+    width: 80%;
     display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    width: calc(50% - 8px);
-    padding: 0 4px 0 4px;
-    background-color: #c2c6ca;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    border-radius: 10px;
+    background: #323a42;
+}
+.rowDark:hover {
+    background: #c2c6ca;
+}
+.projectLight {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+    background: #FFF;
+    color: #000;
+}
+.projectLight:hover {
+    transform: scale(1.01);
+    transition: transform .1s;
+}
+.projectDark {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+    background: #020202;
+    color: #FFF
+}
+.projectDark:hover {
+    transform: scale(1.01);
+    transition: transform .1s;
+}
+.visual {
+    flex: 3;
 }
 .info {
-    flex-grow: 1;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description {
     text-align: left;
     margin: 10px 0;
 }
-img {
+.image {
     max-width: 100%;
+    border-radius: 5px;
 }
 p {
     margin: 0;
