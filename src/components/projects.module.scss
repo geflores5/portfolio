@@ -1,5 +1,20 @@
+.title {
+    font-size: 60px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 100px;
+}
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background: #020202;
+}
 .rowLight {
-    width: calc(100% - 25px);
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,7 +26,7 @@
     background: #efefef;
 }
 .rowDark {
-    width: calc(100% - 25px);
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,7 +42,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 25px;
+    margin: 20px;
     background: #FFF;
     color: #000;
 }
@@ -40,7 +55,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 25px;
+    margin: 20px;
     background: #020202;
     color: #FFF
 }
@@ -61,7 +76,7 @@
     text-align: left;
     margin: 10px 0;
 }
-img {
+.image {
     max-width: 100%;
     border-radius: 5px;
 }

@@ -11,7 +11,8 @@ import projectsStyles from './projects.module.scss'
 
 const Projects = () => {
   return (
-    <>
+    <div className={projectsStyles.projectsContainer} id='projects' >
+      <h1 className={projectsStyles.title} >Projects</h1>
       <div className={projectsStyles.rowDark}>
         <div className={projectsStyles.projectDark}>
           <a
@@ -20,7 +21,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className={projectsStyles.visual}
           >
-            <img src={inkrprate} alt="Inkrprate" />
+            <img src={inkrprate} alt="Inkrprate" className={projectsStyles.image} />
           </a>
           <div className={projectsStyles.info} >
             <p>MongoDB | Express | React | Node | Context | Firebase</p>
@@ -44,7 +45,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={gitcat} alt="geflores5" />
+              <img src={gitcat} alt="geflores5" className={projectsStyles.image} />
             </a>
           </div>
           <a
@@ -53,7 +54,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className={projectsStyles.visual}
           >
-            <img src={related} alt="Related Items" />
+            <img src={related} alt="Related Items" className={projectsStyles.image} />
           </a>
         </div>
       </div>
@@ -65,7 +66,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className={projectsStyles.visual}
           >
-            <img src={remember} alt="Remember When" />
+            <img src={remember} alt="Remember When" className={projectsStyles.image} />
           </a>
           <div className={projectsStyles.info} >
             <p>React | Redux | Firebase Auth/DB/Hosting</p>
@@ -80,7 +81,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={gitcat} alt="geflores5" />
+              <img src={gitcat} alt="geflores5" className={projectsStyles.image} />
             </a>
           </div>
         </div>
@@ -98,7 +99,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={gitcat} alt="geflores5" style={{ background: "#FFF"}} />
+              <img src={gitcat} alt="geflores5" style={{ background: "#FFF"}} className={projectsStyles.image} />
             </a>
           </div>
           <div
@@ -126,7 +127,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className={projectsStyles.visual}
           >
-            <img src={weather} alt="Node Weather App" />
+            <img src={weather} alt="Node Weather App" className={projectsStyles.image} />
           </a>
           <div className={projectsStyles.info} >
             <p>Node | Express | DarkSky API | Heroku</p>
@@ -139,7 +140,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={gitcat} alt="geflores5" />
+              <img src={gitcat} alt="geflores5" className={projectsStyles.image} />
             </a>
           </div>
         </div>
@@ -157,7 +158,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={gitcat} alt="geflores5" />
+              <img src={gitcat} alt="geflores5" className={projectsStyles.image} />
             </a>
           </div>
           <a
@@ -166,7 +167,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className={projectsStyles.visual}
           >
-            <img src={exertracker} alt="Exercise Tracker" />
+            <img src={exertracker} alt="Exercise Tracker" className={projectsStyles.image} />
           </a>
         </div>
       </div>
@@ -178,7 +179,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className={projectsStyles.visual}
           >
-            <img src={githubFinder} alt="Github Finder" />
+            <img src={githubFinder} alt="Github Finder" className={projectsStyles.image} />
           </a>
           <div className={projectsStyles.info} >
             <p>React | GitHub API | Context | Netlify</p>
@@ -191,7 +192,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={gitcat} alt="geflores5" />
+                <img src={gitcat} alt="geflores5" className={projectsStyles.image} />
               </a>
           </div>
         </div>
@@ -209,7 +210,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={gitcat} alt="geflores5" />
+              <img src={gitcat} alt="geflores5" className={projectsStyles.image} />
             </a>
           </div>
           <a
@@ -218,11 +219,11 @@ const Projects = () => {
             rel="noopener noreferrer"
             className={projectsStyles.visual}
           >
-            <img src={blog} alt="Gatsby Blog" />
+            <img src={blog} alt="Gatsby Blog" className={projectsStyles.image} />
           </a>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
